@@ -1,0 +1,75 @@
+* { /*para cambios generales*/
+
+}
+
+
+body{
+    background-color: royalblue;
+    color: darkred;
+    box-sizing: content-box;
+    border: solid 5px black;
+    margin: 40px 70px 100px; /*2 o mas valores*/
+}
+
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100px;
+    font-style: italic;
+}
+ul {
+    list-style-type: none;
+    display: inline; /* lista en horizontal  */
+    text-align: center;
+    margin: auto; /*se adapta*/ 
+}
+
+ul li{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+article{
+    box-sizing: content-box;
+    border: solid 3px black;
+    margin-top: 20%; 
+    background-color: rgb(132, 78, 185);
+    width: 150px;
+    height: 150px;
+    margin-left: 20%;
+}
+article p{
+    font-weight: bold;
+    text-align: center;
+    box-sizing: border-box;
+    border: solid 5px black;
+    margin-top: 10%;
+    margin-left: 30%; 
+}
+
+.cuadro1 article{
+    box-sizing: content-box;
+    border: solid 3px rgb(255, 0, 0);
+    margin-top: 40%; 
+    width: 150px;
+    height: 130px;
+    margin-left: 30%;
+    display: flex; /*objeto flexible va siempre q tenga q moverse el obj*/
+    flex-direction: ; /*para tratar como fila o columna*/
+    align-items: center;
+}
+
+.row{
+    display: flex;
+    float: inline-start; /*indica como se comporta la imagen*/
+    justify-content: space-between;
+}
+
+col {
+    margin: 10px;
+}
+
+@media (min-width:800px) {
+    /*se usa para responsive con js*/
+}

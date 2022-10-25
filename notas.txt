@@ -1,0 +1,107 @@
+---------------------NOTAS
+word wrap //espacio vsc
+semrush - keyword magic tool //plataforma para seo
+
+repo name nombre-apellido tp1
+1 repo x tarea o varios archivos en un repo
+
+curso 31 /26015
+https://axelhb.github.io/Portfolio-AxelHB/
+gh RGDec
+https://github.com/necolas/normalize.css/ //archivo para restablecer config css
+
+-los script como el de bootstrap se ubican al final por la gran carga de datos, justo antes del cierre del body </body>
+
+-sitehealth (salud del sitio segun google)
+
+----------------------GIT------------------
+
+git init (inicia el repositorio)
+git status [muestra el estado de la rama actual o directorio]
+git add . [agrega todos archivo a la rama, el . indica todos, sino se usa add por archivo
+git commit -m "comentario"
+git push origin master/main (carga los archivos a github)
+git push (misma funcion)
+
+git remote add origin "link repo" (agrego el repo al vsc)
+git pull origin main 
+
+---actualizar repo
+git add .
+git commit -m "comentario" 
+
+
+--------------PAGES
+activar gh pages
+deploy from branch
+master -> /root 
+
+--------------------HTML----------------------
+<main>
+<section>
+<head> donde van los metadatos y recursos externos como el .css
+<link> vincula un archivo, por ejemplo el .css 
+<body>
+<html>
+
+<title> inserta titulo, texto grande
+<nav>
+<li> se utiliza con las listas a continuacion
+
+<ol> lista ordenada 
+
+<ul> 
+
+<article> parecido a parrafo, crea un apartado del texto
+
+<figure> se utiliza para insertar imagenes</figure>
+
+<figcaption> en conjunto con figure, es la descripcion de la img 
+
+<div class="">
+
+<div id="">
+
+<strong> texto en negrita
+
+<hr> no lleva cierre
+
+<img src> indica una imagen con su ruta y descripcion, las imagenes deben ir en una carpeta
+
+<em> texto en italica
+
+<br> agrega una linea en blanco
+
+<p> indica parrafo
+
+<break> no llevan cierre 
+
+<form action=" "> formulario
+
+<imput type="button" value="ejemplo"> agrega un boton con una funcion programada, existen varios imputs
+
+
+<input type="text" name="name" placeholder="Ingrese su nombre" value=""> 
+<input type="text" name="city" placeholder="Ingrese su ciudad" value=""> 
+Salida Lo que ingresa en ambos campos. 
+Pero cuando estableces el valor. 
+<input type="text" name="city" placeholder="Ingrese su ciudad" value="Pune"> 
+Salida Ciudad - Pune. el usuario también puede cambiar este valor según su propia ciudad. 
+si establece solo lectura para la entrada de la ciudad, el usuario no puede cambiar el valor de la ciudad
+
+Marcador de posición significa que solo da una pista de lo que completa en este campo. como el tipo de entrada es Nombre: marcador de posición: ingrese su nombre. usted da una pista de qué es esto en el campo de nombre.
+
+Valor significa valor real o fijo en el campo de nombre. como tipo de entrada es Ciudad. si establece el valor Pune. es el valor predeterminado.
+
+-----------------------------------CSS---------------------------------
+
+body{
+    background-color: ;
+    color: ;
+
+}
+
+h1{
+    text-align: center;
+}
+
